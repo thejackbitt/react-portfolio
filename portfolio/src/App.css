@@ -1,0 +1,103 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;  
+  background-color: var(--bkg);
+}
+
+body {
+  background-color: var(--bkg-diff)
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@font-face {
+  font-family: 'Arkanoid';
+  src: url('./assets/fonts/ArkanoidSolid-pgPv.ttf');
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXMedium.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXMediumIt.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXSemiLight.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXSemiLightIt.otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXLight.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adobe-Clean';
+  src: url('./assets/fonts/AdobeCleanUXLightIt.otf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* App CSS */
+.view {
+  min-height: 100vh;
+  padding: 0!important;
+}
+
+/* Header Component */
+
+.header-box {
+  height: 45px;
+  background-color: var(--bkg-ui);
+}
+
+.header-text {
+  padding: 0.5rem;
+  font-family: Arkanoid;
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
