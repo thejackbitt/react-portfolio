@@ -1,0 +1,42 @@
+[
+    {
+        "title":"About Me",
+        "pageType":"article",
+        "image":"JackBittner_LinkedIn_CircleCrop.png",
+        "imageLabel":"Jack Bittner",
+        "imageStats":
+            {
+                "Education":
+                [
+                    "University of Northwestern, St. Paul\nB.S. Marketing\n2018-2022",
+                    "University of Minnesota Bootcamps\nFull Stack Software Engineering Certificate\n2023-2024"
+                ],
+                "Tech Stack":
+                [
+                    "MongoDB",
+                    "Express.js",
+                    "React.js",
+                    "Node.js",
+                    "Typescript",
+                    "Python"
+                ],
+                "Location":"Blaine, Minnesota, USA",
+                "Hobbies":
+                    [
+                    "Digital Animation",
+                    "Graphic Design",
+                    "Illustration",
+                    "Music Production",
+                    "Videography",
+                    "Photography"
+                    ]
+            }
+    },
+    {
+        "articleBody":"I work primarily in Node and React to build robust software with intuitive user interfaces. Thus far, I have built 10+ web applications such as the Bare Home ecommerce site and my own website. My marketing background combined with my design prowess has allowed me to center customer needs in the development process.\n\nTech Stack:\nJavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Bootstrap"
+    },
+    {
+        "articleBody":"I work primarily in Node and React to build robust software with intuitive user interfaces. Thus far, I have built 10+ web applications such as the Bare Home ecommerce site and my own website. My marketing background combined with my design prowess has allowed me to center customer needs in the development process.\n\nTech Stack:\nJavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Bootstrap",
+        "articleImage":"JackBittner_LinkedIn_CircleCrop.png"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    { "id": "aboutMe", "name": "About Me", "destination": "./components/aboutMe.json" },
+    { "id": "resume", "name": "Resume", "destination": "./components/contact.json" },
+    { "id": "portfolio", "name": "Portfolio", "destination": "./components/portfolio.json" },
+    { "id": "contact", "name": "Contact", "destination": "./components/resume.json" }
+]
+  
