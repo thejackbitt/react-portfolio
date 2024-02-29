@@ -134,6 +134,16 @@ body {
   width: 100%;
 }
 
+.img-box {
+  width: 200px;
+  border: 2px solid var(--bkg-diff);
+  margin: 15px;
+}
+
+.img-box img {
+  width: 95%;
+}
+
 .stats-box {
   border: 2px solid var(--bkg-diff);
 }
