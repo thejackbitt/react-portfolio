@@ -1,6 +1,24 @@
 [
     {
         "title":"Contact",
-        "pageType":"form"
+        "pageType":"form",
+        "message":"Want to get in touch?  Send me a message here.  Alternatively, you can email me directly at jack.bittner@outlook.com",
+        "inputs": [
+            {
+                "label":"Name",
+                "required":"false",
+                "type":"small"
+            },
+            {
+                "label":"Email",
+                "required":"true",
+                "type":"small"
+            },
+            {
+                "label":"Message",
+                "required":"true",
+                "type":"large"
+            }
+        ]
     }
 ]
