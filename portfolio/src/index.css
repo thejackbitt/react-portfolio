@@ -51,7 +51,7 @@ h1 {
   line-height: 1.1;
 }
 
-span, p, h1, h2, h3, h4, h5, h6, ul, li {
+div, span, p, h1, h2, h3, h4, h5, h6, ul, li {
   color: var(--text-primary)
 }
 
@@ -60,6 +60,16 @@ h1, h2, h3, h4, h5, h6, span, p {
 }
 
 .noDec {
+  text-decoration: none;
+  color: inherit;
+}
+
+.noDecHover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.noDecHover:hover, .noDecHover:active, .noDecHover:focus {
   text-decoration: none;
   color: inherit;
 }
@@ -82,4 +92,8 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  background-color: var(--bkg);
 }
