@@ -12,7 +12,7 @@
                 "Website":"https://www.jackbittner.net",
                 "GitHub":"https://github.com/thejackbitt"
             },
-        "introBody":"Full Stack Software Engineer building robust software with intuitive user interfaces. Earned a Certificate in Full Stack Software Engineering from the University of Minnesota and a Bachelor’s Degree in Marketing from the University of Northwestern. Proactive approach to development that leverages background in marketing. Strengths in technical ability, expedited turnaround time, leadership and communication.",
+        "body":"Full Stack Software Engineer building robust software with intuitive user interfaces. Earned a Certificate in Full Stack Software Engineering from the University of Minnesota and a Bachelor’s Degree in Marketing from the University of Northwestern. Proactive approach to development that leverages background in marketing. Strengths in technical ability, expedited turnaround time, leadership and communication.",
         "dropdowns":
         {
             "Technical Skills":"JavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Liquid (Shopify) and Bootstrap.",
@@ -24,7 +24,13 @@
                     {
                         "GitHub Repository":"",
                         "Shopify Deployment":"https://barehome.com"
-                    }
+                    },
+                    "list":
+                    [
+                        "Summary: Ecommerce website deployed on Shopify backend.",
+                        "Role: Front-End Developer",
+                        "Tools: Javascript ES6+, CSS3, HTML5, jQuery, Liquid (Shopify), Bootstrap"
+                    ]
                 },
                 {
                     "title":"holiDATE Marketing Tool",
@@ -32,7 +38,13 @@
                     {
                         "GitHub Repository":"https://github.com/thejackbitt/holiday-marketing-tool",
                         "Github Deployment":"https://thejackbitt.github.io/group-project-1/"
-                    }
+                    },
+                    "list":
+                    [
+                        "Summary: Marketing tool for campaign management (group project).",
+                        "Role: Project Manager",
+                        "Tools: Javascript ES6+, Node, CSS3, HTML5, GitHub, jQuery, Bootstrap"
+                    ]
                 },
                 {
                     "title":"Jack Bittner Portfolio Website",
@@ -40,7 +52,13 @@
                     {
                         "GitHub Repository":"https://github.com/thejackbitt/homebase",
                         "Shopify Deployment":"https://jackbittner.net/"
-                    }
+                    },
+                    "list":
+                    [
+                        "Summary: Personal website deployed on Hostgator file server.",
+                        "Role: Sole Author",
+                        "Tools: Javascript ES6+, Node, CSS3, HTML5, GitHub, jQuery"
+                    ]
                 }
             ],
             "Experience":
