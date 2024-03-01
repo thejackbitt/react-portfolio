@@ -1,6 +1,108 @@
 [
     {
         "title":"Resume",
-        "pageType":"document"
+        "pageType":"document",
+        "subhead":"Jack Bittner",
+        "references":
+            {
+                "Phone":"612-836-8415",
+                "Email":"jack.bittner@outlook.com",
+                "Location":"Blaine, MN, 55449",
+                "LinkedIn":"https://www.linkedin.com/in/jack-bittner-9013b9152/",
+                "Website":"https://www.jackbittner.net",
+                "GitHub":"https://github.com/thejackbitt"
+            },
+        "introBody":"Full Stack Software Engineer building robust software with intuitive user interfaces. Earned a Certificate in Full Stack Software Engineering from the University of Minnesota and a Bachelor’s Degree in Marketing from the University of Northwestern. Proactive approach to development that leverages background in marketing. Strengths in technical ability, expedited turnaround time, leadership and communication.",
+        "dropdowns":
+        {
+            "Technical Skills":"JavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Liquid (Shopify) and Bootstrap.",
+            "Projects":
+            [
+                {
+                    "title":"Bare Home Ecommerce Site",
+                    "links": 
+                    {
+                        "GitHub Repository":"",
+                        "Shopify Deployment":"https://barehome.com"
+                    }
+                },
+                {
+                    "title":"holiDATE Marketing Tool",
+                    "links": 
+                    {
+                        "GitHub Repository":"https://github.com/thejackbitt/holiday-marketing-tool",
+                        "Github Deployment":"https://thejackbitt.github.io/group-project-1/"
+                    }
+                },
+                {
+                    "title":"Jack Bittner Portfolio Website",
+                    "links": 
+                    {
+                        "GitHub Repository":"https://github.com/thejackbitt/homebase",
+                        "Shopify Deployment":"https://jackbittner.net/"
+                    }
+                }
+            ],
+            "Experience":
+            [
+                {
+                    "title":
+                    [
+                        "Digital Marketing Generalist",
+                        "Jan 2023-Oct 2023",
+                        "Bare Home",
+                        "Columbus, MN"
+                    ],
+                    "text":"Developed web and video content for marketing purposes.\nKey Accomplishments:",
+                    "list":
+                    [
+                        "Deployed GTM Container for analyzing web traffic and installed Google Analytics.",
+                        "Managed promotional email campaigns through Klaviyo CRM.",
+                        "Collaborated with stakeholders to push content to website, email and social media.",
+                        "Managed Google Ads account and insured fiscal responsibility in ad spend.",
+                        "Oversaw focus group research in shareholders for product development.",
+                        "Created web pages for ecommerce and customer engagement.",
+                        "Produced video YouTube and Amazon ads with 2D motion graphics."
+                    ]
+                },
+                {
+                    "title":
+                    [
+                        "Media Producer",
+                        "Jan 2019-Oct 2023",
+                        "Bullish Moose",
+                        "Blaine, MN"
+                    ],
+                    "text":"Created freelance media production business that offers diverse array of services.\nKey Accomplishments:",
+                    "list":
+                    [
+                        "Completed 2-year Video Production contract for local non-profit organization.",
+                        "Rendered animation services to local non-profit organization.",
+                        "Edited series of YouTube videos for tech content creator based in Japan.",
+                        "Designed website for real-estate professional.",
+                        "Produced social media advertisements for local fast-food chain."
+                    ]
+                }
+            ],
+            "Education":
+            [
+                {
+                    "title":
+                    [
+                        "Certificate, Full Stack Software Engineering - University of MN",
+                        "Minneapolis, MN"
+                    ]
+                },
+                {
+                    "title":
+                    [
+                        "Bachelor of Science, Marketing - University of Northwestern",
+                        "St. Paul, MN"
+                    ],
+                    "text":"(References Available Upon Request)"
+                }
+            ]
+        }
+
     }
 ]

@@ -7,8 +7,6 @@ const Article = () => {
   const imgStats = article[0].imageStats;
   const statsEmpty = !imgStats || Object.keys(imgStats).length === 0;
 
-  console.log(article)
-
   const renderStatItems = (items) => {
     if (Array.isArray(items)) {
       return items.map((item, index) => {
