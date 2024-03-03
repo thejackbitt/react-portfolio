@@ -1,8 +1,25 @@
-import React, { useState } from "react";
-import form from "./layouts/contact.json";
+import React, { useState, useEffect } from "react";
 
 const Form = () => {
-  const { title, message, inputs } = form[0];
+  const [form, setForm] = useState(null);
+
+  useEffect(() => {
+    fetch('./layouts/contact.json')
+      .then(response => response.json())
+      .then(data => setForm(data))
+      .catch(error => console.error("Ruh roh, Raggy:", error));
+  }, []);
+
+  let title = ''
+  let message = ''
+  let inputs = []
+
+  if (form && form.length > 0) {
+    title = form[0].title
+    message = form[0].message
+    inputs = form[0].inputs
+  }
+  
   const [formData, setFormData] = useState({});
   const [formErrors, setFormErrors] = useState({});
 

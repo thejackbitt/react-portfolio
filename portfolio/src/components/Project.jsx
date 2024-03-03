@@ -9,7 +9,7 @@ const Project = (item) => {
             <h5>{item.repoTitle}</h5>
         </a>
         <a href={item.link}>
-        <img src={`./src/assets/${item.thumbnail}`}/>
+        <img src={`./${item.thumbnail}`}/>
         </a>
     </div>
     </>

@@ -1,10 +1,23 @@
-import React from 'react';
-import portfolio from "../components/layouts/portfolio.json";
+import React, { useState, useEffect } from 'react';
 import Project from '../components/Project'
 
 const Portfolio = () => {
-    const title = portfolio[0].title;
-    const items = portfolio[0].items;
+    const [portfolio, setPortfolio] = useState(null);
+
+    useEffect(() => {
+        fetch('./layouts/portfolio.json')
+            .then(response => response.json())
+            .then(data => setPortfolio(data))
+            .catch(err => console.error("Ruh roh, Raggy:", error))
+    }, []);
+
+    let title = ''
+    let items = []
+
+    if (portfolio && portfolio.length > 0) {
+        title = portfolio[0].title
+        items = portfolio[0].items
+    }
 
     return (
         <>
