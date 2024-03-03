@@ -26,47 +26,47 @@ body {
 
 @font-face {
   font-family: 'Arkanoid';
-  src: url('./assets/fonts/ArkanoidSolid-pgPv.ttf');
+  src: url('./fonts/ArkanoidSolid-pgPv.ttf');
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXMedium.otf');
+  src: url('./fonts/AdobeCleanUXMedium.otf');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXMediumIt.otf');
+  src: url('./fonts/AdobeCleanUXMediumIt.otf');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXSemiLight.otf');
+  src: url('./fonts/AdobeCleanUXSemiLight.otf');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXSemiLightIt.otf');
+  src: url('./fonts/AdobeCleanUXSemiLightIt.otf');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXLight.otf');
+  src: url('./fonts/AdobeCleanUXLight.otf');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Adobe-Clean';
-  src: url('./assets/fonts/AdobeCleanUXLightIt.otf');
+  src: url('./fonts/AdobeCleanUXLightIt.otf');
   font-weight: 100;
   font-style: italic;
 }

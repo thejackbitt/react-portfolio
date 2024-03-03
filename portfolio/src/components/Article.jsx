@@ -1,11 +1,28 @@
-import React from 'react';
-import article from "../components/layouts/aboutMe.json";
+import React, { useState, useEffect } from 'react';
+
 const Article = () => {
-  const title = article[0].title;
-  const imgPath = article[0].image;
-  const imgLabel = article[0].imageLabel;
-  const imgStats = article[0].imageStats;
-  const statsEmpty = !imgStats || Object.keys(imgStats).length === 0;
+  const [article, setArticle] = useState(null);
+
+  useEffect(() => {
+    fetch("./layouts/aboutMe.json")
+      .then(response => response.json())
+      .then(data => setArticle(data))
+      .catch(error => console.error("Ruh roh, Raggy:", error));
+  }, []);
+
+  let title = ''
+  let imgPath = ''
+  let imgLabel = ''
+  let imgStats = []
+  let statsEmpty = true
+
+  if (article && article.length > 0 ) {
+    title = article[0].title;
+    imgPath = article[0].image;
+    imgLabel = article[0].imageLabel;
+    imgStats = article[0].imageStats;
+    statsEmpty = !imgStats || Object.keys(imgStats).length === 0;
+  }
 
   const renderStatItems = (items) => {
     if (Array.isArray(items)) {
@@ -44,7 +61,7 @@ const Article = () => {
 
   const renderArticleImage = (imagePath) => (
     <div className="img-box p-2 float-start">
-      <img src={`./src/assets/${imagePath}`} alt="Article Image" />
+      <img src={`./${imagePath}`} alt="Article Image" />
     </div>
   );
 
@@ -55,7 +72,7 @@ const Article = () => {
         <div className="row">
           <div className="col-7 d-flex flex-column align-items-center py-2">
             <hr width="90%"/>
-            {article.slice(1).map((item, index) => (
+            {article && article.slice(1).map((item, index) => (
               <React.Fragment key={index}>
                 {item.articleBody && (
                   <p className="py-1 article-body">{item.articleImage && renderArticleImage(item.articleImage)}{renderArticleBody(item.articleBody)}</p>
@@ -66,7 +83,7 @@ const Article = () => {
           <div className="col-5 d-flex flex-column align-items-center stats-box py-2">
             <h2 className="w-100">{imgLabel}</h2>
             <div className="img-container p-2">
-              <img src={`./src/assets/${imgPath}`} alt={imgLabel} />
+              <img src={`./${imgPath}`} alt={imgLabel} />
             </div>
             {!statsEmpty ? (
               Object.entries(imgStats).map(([key, value]) => (

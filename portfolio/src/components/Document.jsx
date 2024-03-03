@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import document from "./layouts/resume.json";
 
 const Document = () => {
-  const title = document[0].title;
-  const subhead = document[0].subhead;
-  const references = document[0].references;
-  const body = document[0].body;
-  const dropdowns = document[0].dropdowns;
+  const [document, setDocument] = useState(null)
+
+  useEffect(() => {
+    fetch('./layouts/resume.json')
+      .then(response => response.json())
+      .then(data => setDocument(data))
+      .catch(error => console.error("Ruh roh, Raggy:", error));
+  }, []);
+
+  let title = ''
+  let subhead = ''
+  let references = []
+  let body = ''
+  let dropdowns = [];
+
+  if (document && document.length > 0) {
+    title = document[0].title;
+    subhead = document[0].subhead;
+    references = document[0].references;
+    body = document[0].body;
+    dropdowns = document[0].dropdowns;
+  }
 
   console.log(dropdowns);
 

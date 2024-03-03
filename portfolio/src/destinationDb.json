@@ -1,6 +1,0 @@
-[
-    { "id": "aboutMe", "name": "About Me", "destination": "../components/layouts/aboutMe.json" },
-    { "id": "resume", "name": "Resume", "destination": "../components/layouts/resume.json" },
-    { "id": "portfolio", "name": "Portfolio", "destination": "../components/layouts/portfolio.json" },
-    { "id": "contact", "name": "Contact", "destination": "../components/layouts/contact.json" }
-]
