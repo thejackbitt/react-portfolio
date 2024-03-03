@@ -1,6 +1,29 @@
 [
     {
-        "title":"portfolio",
-        "pageType":"portfolio"
+        "title":"Portfolio",
+        "pageType":"portfolio",
+        "items":[
+            {
+                "title":"holiDATE",
+                "link":"https://thejackbitt.github.io/holiday-marketing-tool",
+                "repoTitle":"Github",
+                "repo":"https://github.com/thejackbitt/holiday-marketing-tool",
+                "thumbnail":"holidate_thumbnail.jpg"
+            },
+            {
+                "title":"PetsRUs",
+                "link":"https://petsrus-mock-charity-bba28605e28b.herokuapp.com/pets",
+                "repoTitle":"Github",
+                "repo":"https://github.com/ag-bootcamp-umn/pets-r-us",
+                "thumbnail":"petsrus_thumbnail.jpg"
+            },
+            {
+                "title":"jackbittner.net",
+                "link":"https://jackbittner.net/",
+                "repoTitle":"Github",
+                "repo":"https://github.com/thejackbitt/homebase",
+                "thumbnail":"jackbittnernet_thumbnail.jpg"
+            }
+        ]
     }
 ]

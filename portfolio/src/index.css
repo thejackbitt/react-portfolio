@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
   /* Light Mode */
 :root[data-theme='light'] {
@@ -19,6 +20,7 @@
     --bkg-ui: rgba(202, 202, 202);
     --text-primary: #242424;
     --text-secondary: #2d4385;
+    transition: all 1s ease;
 }
 
 /* Bravo Six, Going Dark */
@@ -28,6 +30,7 @@
   --bkg-ui: #1b1b1b;
   --text-primary: rgba(255, 255, 255);
   --text-secondary: #e867ed;
+  transition: all 1s ease;
 }
 
 a {
