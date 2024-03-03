@@ -176,3 +176,51 @@ hr {
 .sub-Btn:hover {
   border: 1px solid var(--text-primary);
 }
+
+/* Portfolio Component */
+
+.portfolio-item {
+  width: 350px;
+  height: 195px;
+  overflow: hidden;
+  border: 2px solid var(--text-secondary);
+}
+
+.portfolio-item img {
+  width: 100%;
+  transition: all 0.2s ease;
+  z-index: 1;
+  opacity: 50%;
+}
+
+.portfolio-item img:hover {
+  transform: scale(105%);
+}
+
+.portfolio-item h4, .portfolio-item h5 {
+  position: absolute;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  transition: all 0.2s ease;
+  z-index: 2;
+  text-shadow: 2px 2px var(--bkg-ui);
+}
+
+.portfolio-item h4:hover, .portfolio-item h5:hover {
+  transform: scale(105%);
+  color: var(--text-secondary);
+  text-shadow: 4px 4px var(--bkg-ui);
+}
+
+.portfolio-item h4 {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 3rem;
+} 
+
+.portfolio-item h5 {
+  margin-left: 10px;
+  margin-top: 70px;
+  font-size: 2rem;
+} 

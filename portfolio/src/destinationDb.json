@@ -1,7 +1,6 @@
 [
-    { "id": "aboutMe", "name": "About Me", "destination": "./components/aboutMe.json" },
-    { "id": "resume", "name": "Resume", "destination": "./components/contact.json" },
-    { "id": "portfolio", "name": "Portfolio", "destination": "./components/portfolio.json" },
-    { "id": "contact", "name": "Contact", "destination": "./components/resume.json" }
+    { "id": "aboutMe", "name": "About Me", "destination": "../components/layouts/aboutMe.json" },
+    { "id": "resume", "name": "Resume", "destination": "../components/layouts/contact.json" },
+    { "id": "portfolio", "name": "Portfolio", "destination": "../components/layouts/portfolio.json" },
+    { "id": "contact", "name": "Contact", "destination": "../components/layouts/resume.json" }
 ]
-  

@@ -1,7 +1,7 @@
 import ModeBtn from './ModeBtn.jsx'
 import Navigation from './Navigation.jsx'
 
-function Header() {
+function Header({ changeComponent }) {
     return (
       <>
         <div className="container-fluid">
@@ -10,8 +10,8 @@ function Header() {
                 <h1 className="header-text">Jack Bittner</h1>
             </div>
             <div className="col-4">
-              <Navigation/>
-            </div>
+            <Navigation changeComponent={changeComponent} />
+    </div>
             <div className="col-2 d-flex justify-content-center align-items-center">
               <ModeBtn/>
             </div>
