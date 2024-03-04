@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from 'reactstrap';
 
 const Navigation = ({ changeComponent }) => {
   const [navigationData, setNavData] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
 
   useEffect(() => {
     fetch('./destinationDb.json')
@@ -32,32 +35,36 @@ const Navigation = ({ changeComponent }) => {
     }
   }, [navigationData]);
 
-  const scalar = navigationData ? (Math.floor(12 / navigationData.length)) < 1 ? 1 : Math.floor(12 / navigationData.length) : 1;
-
   const preHandleClick = (id) => {
-    if (pageTypes[id.index] !== undefined) { const destComp = pageTypes[id.index].charAt(0).toUpperCase() + pageTypes[id.index].slice(1);
+    if (pageTypes[id.index] !== undefined) {
+      const destComp = pageTypes[id.index].charAt(0).toUpperCase() + pageTypes[id.index].slice(1);
       handleClick(destComp);
     } else {
       console.error('Ruh roh, Raggy!  No page!');
     }
-  }
-  
+  };
 
   const handleClick = (componentName) => {
     changeComponent(componentName);
+    if (window.innerWidth <= 450) toggle();
   };
 
   return (
     <>
-      <div className="row">
-        {navigationData && navigationData.map((item, index) => (
-          <div key={item.id} className={`col-${scalar} d-flex justify-content-end align-items-center`}>
-            <a className="noDec" onClick={() => preHandleClick({ index })}>
-              <p className="header-item click-link">{item.name}</p>
-            </a>
-          </div>
-        ))}
-      </div>
+      <Navbar color="light" light expand="md">
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className="mr-auto" navbar>
+            {navigationData && navigationData.map((item, index) => (
+              <NavItem key={item.id}>
+                <NavLink href="#" onClick={() => preHandleClick({ index })}>
+                  {item.name}
+                </NavLink>
+              </NavItem>
+            ))}
+          </Nav>
+        </Collapse>
+      </Navbar>
     </>
   );
 };

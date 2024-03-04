@@ -26,7 +26,9 @@ body {
 
 @font-face {
   font-family: 'Arkanoid';
-  src: url('./fonts/ArkanoidSolid-pgPv.ttf');
+  src: url('../public/fonts/Arka_solid.ttf');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -224,3 +226,15 @@ hr {
   margin-top: 70px;
   font-size: 2rem;
 } 
+
+/* Responsive Styling */
+
+@media screen and (max-width: 450px) {
+  .header-text {
+    font-size: 1rem;
+  }
+
+  #toggleBtn {
+    display: none;
+  }
+}
