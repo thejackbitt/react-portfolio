@@ -6,7 +6,7 @@ function Header({ changeComponent }) {
       <>
         <div className="container-fluid">
           <div className="row header-box justify-content-start align-items-center">
-            <div className="col-6-md d-none-sm">
+            <div className="col-md-6 d-none-sm">
                 <h1 className="header-text">Jack Bittner</h1>
             </div>
             <div className="col-4">
