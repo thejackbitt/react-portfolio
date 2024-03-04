@@ -9,7 +9,7 @@ The Navigation component handles the bulk of page loading by fetching the index 
 ## Deployment
 You can find the deployment of this app here:
 
-[Netlify Deployment](https://65e497a1d8f194a326a76881--keen-cocada-d4c873.netlify.app/)
+[Netlify Deployment](https://65e57600588162000853fe50--keen-cocada-d4c873.netlify.app/)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
