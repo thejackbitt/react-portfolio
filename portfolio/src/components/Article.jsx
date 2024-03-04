@@ -70,7 +70,7 @@ const Article = () => {
       <div className="container">
         <h2 className="pt-2">{title}</h2>
         <div className="row">
-          <div className="col-7 d-flex flex-column align-items-center py-2">
+          <div className="col-7-md col-12-sm d-flex flex-column align-items-center py-2">
             <hr width="90%"/>
             {article && article.slice(1).map((item, index) => (
               <React.Fragment key={index}>
@@ -80,7 +80,7 @@ const Article = () => {
               </React.Fragment>
             ))}
           </div>
-          <div className="col-5 d-flex flex-column align-items-center stats-box py-2">
+          <div className="col-5-md col-12-sm d-flex flex-column align-items-center stats-box py-2">
             <h2 className="w-100">{imgLabel}</h2>
             <div className="img-container p-2">
               <img src={`./${imgPath}`} alt={imgLabel} />
