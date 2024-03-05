@@ -75,17 +75,14 @@ const Document = () => {
                       .map((title, titleIndex) => (
                         <div
                           key={titleIndex}
-                          style={{
-                            display: "flex",
-                            justifyContent: "space-between",
-                          }}
+                          className="subheader-container"
                         >
-                          <p style={{ flex: 1, textAlign: "left", margin: 0 }}>
+                          <p className='subheader-left'>
                             {titleIndex % 2 === 0 && <b>{title}</b>}
                           </p>
                           {item.title[titleIndex + 1] && (
                             <p
-                              style={{ flex: 1, textAlign: "right", margin: 0 }}
+                              className="subheader-right"
                             >
                               {titleIndex % 2 === 0 && (
                                 <b>{item.title[titleIndex + 1]}</b>
@@ -161,7 +158,7 @@ const Document = () => {
       <div className="container">
         <h2 className="pt-2">{title}</h2>
         <div className="row d-flex flex-column align-items-center">
-          <div className="col-8 text-center">
+          <div className="col-12 col-md-8 text-center">
             <h2>{subhead}</h2>
             <br />
             <span>{renderReferences(references)}</span>

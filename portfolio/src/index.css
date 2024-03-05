@@ -15,7 +15,7 @@
 }
   /* Light Mode */
 :root[data-theme='light'] {
-    --bkg: rgba(255, 255, 255);
+    --bkg: rgb(255, 255, 255);
     --bkg-diff: rgb(240, 240, 240);
     --bkg-ui: rgba(202, 202, 202);
     --text-primary: #242424;

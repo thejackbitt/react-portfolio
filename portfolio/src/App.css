@@ -26,7 +26,7 @@ body {
 
 @font-face {
   font-family: 'Arkanoid';
-  src: url('../public/fonts/Arka_solid.ttf');
+  src: url('/fonts/Arka_solid.ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -159,6 +159,24 @@ hr {
 }
 
 /* Document Component */
+.subheader-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subheader-right {
+  flex: 1;
+  text-align: right;
+  margin: 0 ;
+}
+
+.subheader-left {
+  flex: 1;
+  text-align: left;
+  margin: 0 ;
+}
+
+
 .dropDownHeader {
   padding-bottom: 2px;
 }
@@ -173,6 +191,8 @@ hr {
   color: var(--bkg);
   background-color: var(--text-secondary);
   border: 1px solid transparent;
+  margin: 15px 0;
+  width: 100px;
 }
 
 .sub-Btn:hover {
@@ -229,6 +249,16 @@ hr {
 
 /* Responsive Styling */
 
+.cls-1 {
+  fill: var(--text-primary);
+  stroke-width: 0px;
+}
+
+#toggleBtnMobile {
+  margin: 15px 0;
+  background-color: var(--bkg-ui);
+}
+
 .hamburger-menu-list {
   height: 100vh;
   width: 100vw;
@@ -271,6 +301,7 @@ hr {
 
 #rotating-image {
   transition: transform 0.5s ease;
+  width: 60px;
 }
 
 .rotated {
@@ -279,6 +310,10 @@ hr {
 
 #rotating-image.rotated {
   transform: rotate(90deg);
+}
+
+.mobile-header-text {
+  display: none;
 }
 
 @media screen and (max-width: 450px) {
@@ -309,4 +344,70 @@ hr {
   .top-bar {
     display: none;
   }
+
+  .portfolio-item h4 {
+    font-size: 1.8rem;
+    margin-top: 4px;
+  }
+
+  .portfolio-item h5 {
+    margin-top: 58px;
+    font-size: 1.4rem;
+  }
+
+  .portfolio-item {
+    height: 115px;
+  }
+
+  #toggleBtn {
+    display: none;
+  }
+
+  #headerRoot {
+    position: fixed;
+    z-index: 5;
+  }
+
+  #bodyRoot {
+    margin-top: 90px;
+    margin-bottom: 45px;
+  }
+
+  .img-box {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .sub-Btn {
+    width: 100%;
+  }
+
+  .subheader-container {
+    display: block;
+    justify-content: start;
+  }
+
+  .subheader-left {
+    flex: none;
+  }
+
+  .subheader-right {
+    flex: none;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+  }
+
+  .mobile-header-text {
+    display: block;
+    margin: 0 12px;
+    margin-top: 4px;
+    font-family: Arkanoid;
+    font-size: 2rem;
+    color: var(--text-primary);
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
+
 }

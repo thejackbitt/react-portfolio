@@ -55,7 +55,7 @@ const Form = () => {
       <div className="container">
         <h2>{title}</h2>
         <div className="row d-flex flex-column align-items-center">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <br />
             <br />
             <p>{message}</p>
