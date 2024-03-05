@@ -2,16 +2,16 @@ import $ from 'jquery';
 import React, { useState, useEffect } from 'react'
 
 const MobileModeBtn = () => {
-    const [theme, setTheme] = useState(localStorage.getItem('theme'));
+    const [theme, setTheme] = useState(localStorage.getItem('theme-mobile'));
 
     useEffect(() => {
-        const savedTheme = localStorage.getItem('theme') || 'light';
+        const savedTheme = localStorage.getItem('theme-mobile') || 'light';
         setTheme(savedTheme);
         $(':root').attr('data-theme', savedTheme); 
     }, []);
 
     useEffect(() => {
-        localStorage.setItem('theme', theme);
+        localStorage.setItem('theme-mobile', theme);
         $(':root').attr('data-theme', theme);
     }, [theme]);
 
