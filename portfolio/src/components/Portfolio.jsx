@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className="container">
                 <h2>{title}</h2>
                 <div className="row justify-content-center">
-                    <div className="col-8 d-flex justify-content-center flex-wrap">
+                    <div className="col-12 col-md-8 d-flex justify-content-center flex-wrap">
                         {items.map((item, index) => (
                             <Project
                                 key={index}

@@ -33,7 +33,7 @@ function App() {
     <>
       <div className='container-fluid d-flex flex-column view'>
         <Header changeComponent={changeComponent} />
-        <div className='container d-flex flex-fill'>
+        <div id='bodyRoot' className='container d-flex flex-fill'>
           {getComponent()}
         </div>
         <Footer />
