@@ -18,9 +18,11 @@
                     "React.js",
                     "Node.js",
                     "Typescript",
-                    "Python"
+                    ".NET",
+                    "ASP.NET",
+                    ".NET MAUI"
                 ],
-                "Location":"Blaine, Minnesota, USA",
+                "Location":"Minneapolis, Minnesota, USA",
                 "Hobbies":
                     [
                     "Digital Animation",
@@ -33,10 +35,10 @@
             }
     },
     {
-        "articleBody":"I work primarily in Node and React to build robust software with intuitive user interfaces. Thus far, I have built 10+ web applications such as the Bare Home ecommerce site and my own website. My marketing background combined with my design prowess has allowed me to center customer needs in the development process.\n\nTech Stack:\nJavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Bootstrap"
+        "articleBody":"I work primarily in React and .NET to build robust software with intuitive user interfaces. Thus far, I have built 10+ web applications such as the Bare Home ecommerce site and my own website. My marketing background combined with my design prowess has allowed me to center customer needs in the development process.\n\nTech Stack:\nMongoDB | Express | React/Angular | Node.js | Javascript ES6 | Bootstrap/Tailwind | Liquid (Shopify) | Python | Java | C#"
     },
     {
-        "articleBody":"\nI live with my wife, Kalli, in Blaine, Minnesota.  When my wife is at work, I moonlight as an animator, author and YouTube commentator.  I have a channel on YouTube that I use to discuss topics relating to business and technology as well as a second channel run by me and my business partner to create animated content.  My wife and I enjoy a variety of hobbies from swing dancing to drawing.",
+        "articleBody":"\nI live with my wife, Kalli, in Minneapolis, Minnesota.  When my wife is at work, I moonlight as an animator, author and YouTube commentator.  I have a channel on YouTube that I use to discuss topics relating to business and technology as well as a second channel run by me and my business partner to create animated content.  My wife and I enjoy a variety of hobbies from swing dancing to drawing.",
         "articleImage":"Jack_Kalli_WeddingPhoto.png"
     }
 ]

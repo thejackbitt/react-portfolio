@@ -7,17 +7,31 @@
             {
                 "Phone":"612-836-8415",
                 "Email":"jack.bittner@outlook.com",
-                "Location":"Blaine, MN, 55449",
-                "LinkedIn":"https://www.linkedin.com/in/jack-bittner-9013b9152/",
+                "Location":"Minneapolis, MN",
+                "LinkedIn":"https://www.linkedin.com/in/jack-bittner/",
                 "Website":"https://www.jackbittner.net",
                 "GitHub":"https://github.com/thejackbitt"
             },
-        "body":"Full Stack Software Engineer building robust software with intuitive user interfaces. Earned a Certificate in Full Stack Software Engineering from the University of Minnesota and a Bachelor’s Degree in Marketing from the University of Northwestern. Proactive approach to development that leverages background in marketing. Strengths in technical ability, expedited turnaround time, leadership and communication.",
+        "body":"Efficiency-driven Full Stack Software Engineer building robust software with intuitive user interfaces. Earned a Certificate in Full Stack Software Engineering from the University of Minnesota and a Bachelor’s Degree in Marketing from the University of Northwestern. Proactive approach to development that leverages background in marketing. Strengths in technical ability, expedited turnaround time, leadership and communication.",
         "dropdowns":
         {
-            "Technical Skills":"JavaScript ES6+, React, Node, CSS3, HTML5, SQL, MySQL, GitHub, Express, jQuery, Liquid (Shopify) and Bootstrap.",
+            "Technical Skills":"Java, C#, Python, Javascript, Typescript, SQL, GraphQL, .NET, ASP.NET, .NET MAUI, React, Angular, Node.js, Liquid (Shopify)",
             "Projects":
             [
+                {
+                    "title":"“Espresso” App",
+                    "links": 
+                    {
+                        "GitHub Repository":"https://github.com/thejackbitt/project-espresso-2",
+                        "Standalone Deployment":""
+                    },
+                    "list":
+                    [
+                        "Summary: Cross-platform project management app built on MAUI.",
+                        "Role: Lead Engineer",
+                        "Tools: .NET, ASP.NET, .NET MAUI, XAML"
+                    ]
+                },
                 {
                     "title":"Bare Home Ecommerce Site",
                     "links": 
@@ -30,6 +44,20 @@
                         "Summary: Ecommerce website deployed on Shopify backend.",
                         "Role: Front-End Developer",
                         "Tools: Javascript ES6+, CSS3, HTML5, jQuery, Liquid (Shopify), Bootstrap"
+                    ]
+                },
+                {
+                    "title":"Wolf.IO Stock Trading App",
+                    "links": 
+                    {
+                        "GitHub Repository":"https://github.com/KDeLaria/stock-portfolio-app",
+                        "Heroku Deployment":"https://stock-portfolio-app-0d5fa262dd91.herokuapp.com/"
+                    },
+                    "list":
+                    [
+                        "Summary: Live stock tracker that saves user trades (group project).",
+                        "Role: Contributor, REST API Engineer",
+                        "Tools: React, Node, CSS3, GitHub, Bootstrap, Ignite.UI"
                     ]
                 },
                 {
@@ -51,7 +79,7 @@
                     "links": 
                     {
                         "GitHub Repository":"https://github.com/thejackbitt/homebase",
-                        "Shopify Deployment":"https://jackbittner.net/"
+                        "Web Deployment":"https://jackbittner.net/"
                     },
                     "list":
                     [

@@ -4,11 +4,25 @@
         "pageType":"portfolio",
         "items":[
             {
+                "title":"Espresso (WIP)",
+                "link":"https://github.com/thejackbitt/project-espresso-2",
+                "repoTitle":"Github",
+                "repo":"https://github.com/thejackbitt/project-espresso-2",
+                "thumbnail":"espresso_thumbnail.jpg"
+            },
+            {
                 "title":"holiDATE",
                 "link":"https://thejackbitt.github.io/holiday-marketing-tool",
                 "repoTitle":"Github",
                 "repo":"https://github.com/thejackbitt/holiday-marketing-tool",
                 "thumbnail":"holidate_thumbnail.jpg"
+            },
+            {
+                "title":"Wolf.IO",
+                "link":"https://stock-portfolio-app-0d5fa262dd91.herokuapp.com/",
+                "repoTitle":"Github",
+                "repo":"https://github.com/KDeLaria/stock-portfolio-app",
+                "thumbnail":"wolfi_thumbnail.jpg"
             },
             {
                 "title":"PetsRUs",
